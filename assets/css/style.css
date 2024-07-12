@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
+    /* border: 1px solid red !important; */
+    transition: all 255ms linear !important;
+}
+
+:root {
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-25: 25px;
+    --fs-32: 32px;
+    --fs-48: 48px;
+
+    --fw-400: 400;
+    --fw-600: 600;
+
+    --ff-Kaushan: "Kaushan Script", cursive;
+    --ff-Archivo: "Archivo", sans-serif;
+
+    --text-green: #6E9277;
+}
+
+.ff_Kaushan {
+    font-family: var(--ff-Kaushan);
+}
+
+.ff_Archivo {
+    font-family: var(--ff-Archivo);
+}
+
+.text_green {
+    color: #6E9277;
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-25 {
+    font-size: var(--fs-25);
+}
+
+.fs-32 {
+    font-size: var(--fs-32);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.Opacity_70 {
+    opacity: 70%;
+}
+
+.m_w_799 {
+    max-width: 799px;
+}
+
+.BG_Img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/BG_Img.png");
+}
+
+.Card_1 {
+    z-index: 1;
+    height: 947px;
+    padding: 40px;
+    background: #F5F8F6;
+}
+
+.Box_1 {
+    width: 510px;
+    height: 627px;
+    background: #FFFFFF;
+    border: 1.09px solid #0000001A;
+}
+
+.Box_Img_m_w {
+    width: 510px !important;
+    height: 390px !important;
+}
+
+.Devices {
+    border: none;
+    outline: none;
+    width: 156.5px;
+    height: 52.7px;
+    background: #6E9277;
+    padding: 16.35px 27.25px 16.35px 27.25px;
+}
+
+.Treatments {
+    border: none;
+    outline: none;
+    width: 182.5px;
+    height: 52.7px;
+    background: #6E9277;
+    padding: 16.35px 27.25px 16.35px 27.25px;
+}
+
+.Green_shadow:hover {
+    box-shadow: 5px 5px 10px #6E9277;
+}
+
+.Ellipse_Img_1-m-w {
+    max-height: 462px !important;
+    max-width: 532.12px !important;
+}
+
+.Ellipse_Img_1 {
+    top: -16%;
+    left: -5%;
+    rotate: -358deg;
+}
+
+.Ellipse_Img_2 {
+    max-width: 387.67px !important;
+    max-height: 371.81px !important;
+}
+
+.Ellipse_Img_2 {
+    top: 71%;
+    right: 1%;
+    rotate: -358deg;
+}
+
+@media (max-width:1200px) {
+    .Card_1 {
+        height: 100%;
+    }
+
+    .Box_1 {
+        height: 100%;
+    }
+}
+
+@media (max-width:1025px) {
+    .lg-d-n {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    :root {
+        --fs-32: 15px;
+        --fs-48: 32px;
+    }
+}
+
+@media (max-width:320px) {
+    :root {
+        --fs-32: 13px;
+        --fs-48: 20px;
+    }
+}
